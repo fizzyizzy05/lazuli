@@ -29,7 +29,9 @@ pacman -S --noconfirm \
 
 # Install some DMS stuff
 pacman -S --noconfirm \
-  matugen
+  matugen \
+  cava \
+  kimageformats
 
 # Enable DMS to run under niti
 systemctl --user add-wants niri.service dms
